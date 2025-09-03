@@ -1,8 +1,13 @@
-# Pennsylvania EMA Project - Storm Resource Allocation Dashboard and Analysis in Python 
+<div align="center">
 
- [Continuing Analysis](#continuing-analysis) 
+ # Pennsylvania EMA Project 
+ ## Storm Resource Allocation Dashboard and Analysis in Python 
 
-## About this Project 
+[About This Project](#about-this-project) · [Continuing Analysis](#continuing-analysis) · [Numerical and Categorical Analysis](#numerical-and-categorical-analysis) · [Visualizations](#visualizations)
+
+</div>
+
+### About this Project 
 
 Developed as part of the graduate course DAT 530: Present and Visualize Data at Southern New Hampshire University, this project focused on designing data visualizations tailored to diverse audiences within a state government context. Using Tableau, I created an interactive dashboard alongside two additional deliverables: a PowerPoint presentation and a public-facing pamphlet.
 
@@ -18,8 +23,10 @@ This project emphasized effective communication through data visualization, adap
 
 [![Dashboard Preview](https://public.tableau.com/static/images/St/StormDashboard_17559311714590/Dashboard1/1.png)](https://public.tableau.com/views/StormDashboard_17559311714590/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-## Continuing Analysis
+### Continuing Analysis
 
-Since concluding the project in the course, 
+## Numerical and Categorical Analysis 
+
+## Visualizations
 
 
