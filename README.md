@@ -3,7 +3,7 @@
  # Pennsylvania EMA Project 
  ## Storm Resource Allocation Dashboard and Analysis in Python 
 
-[About This Project](#about-this-project) · [Continuing Analysis](#continuing-analysis) · [Numerical and Categorical Analysis](#numerical-and-categorical-analysis) · [Visualizations](#visualizations)
+[About This Project](#about-this-project) · [Continuing Analysis](#continuing-analysis) · [Cleaning the Data](#cleaning-the-data) · [Numerical and Categorical Analysis](#numerical-and-categorical-analysis) · [Visualizations](#visualizations)
 
 </div>
 
@@ -23,10 +23,32 @@ This project emphasized effective communication through data visualization, adap
 
 [![Dashboard Preview](https://public.tableau.com/static/images/St/StormDashboard_17559311714590/Dashboard1/1.png)](https://public.tableau.com/views/StormDashboard_17559311714590/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-### Continuing Analysis
+## Continuing Analysis
 
-## Numerical and Categorical Analysis 
+### Cleaning the Data 
 
-## Visualizations
+With over 113,000 non-null entries across 53 columns, this dataset is substantial. This makes thorough cleaning essential to ensure it's structured, reliable, and ready for meaningful analysis.
+
+
+**Initial Data Inspection:**
+
+- Loaded stormevent_details.csv and performed exploratory checks using .head(), .info(), and .describe() to understand structure, data types, and missing values.
+
+  
+**Date Formatting:**
+- Transformed BEGIN_YEARMONTH and END_YEARMONTH from numeric values into string format with a space inserted after the first four digits.
+- Reordered the format from YYYY MM to MM YYYY for improved readability and alignment with conventional date formats.
+
+  
+**Date Construction:**
+  - Combined BEGIN_DAY with the cleaned BEGIN_YEARMONTH to create a new begin_date column.
+  - Similarly, merged END_DAY with END_YEARMONTH to form an end_date column.
+
+    
+ **These new columns provide more interpretable date strings for analysis and visualization.**
+
+### Numerical and Categorical Analysis 
+
+### Visualizations
 
 
