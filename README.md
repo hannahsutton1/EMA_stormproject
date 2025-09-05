@@ -27,25 +27,28 @@ This project emphasized effective communication through data visualization, adap
 
 ### Cleaning the Data 
 
-With over 113,000 non-null entries across 53 columns, this dataset is substantial. This makes thorough cleaning essential to ensure it's structured, reliable, and ready for meaningful analysis.
+
+**This dataset contains over 113,000 storm event records with detailed temporal fields spread across multiple columns. To prepare the data for analysis and visualization, the following cleaning steps were performed:**
 
 
-**Initial Data Inspection:**
+**Initial Inspection**
+- Loaded the dataset and reviewed structure, data types, and completeness using .head(), .info(), and .describe().
 
-- Loaded stormevent_details.csv and performed exploratory checks using .head(), .info(), and .describe() to understand structure, data types, and missing values.
 
-  
-**Date Formatting:**
-- Transformed BEGIN_YEARMONTH and END_YEARMONTH from numeric values into string format with a space inserted after the first four digits.
-- Reordered the format from YYYY MM to MM YYYY for improved readability and alignment with conventional date formats.
+**Date Construction**
+- Reformatted BEGIN_YEARMONTH and END_YEARMONTH by removing inserted spaces and converting them to strings.
+- Padded BEGIN_DAY and END_DAY to ensure two-digit consistency.
+- Combined year-month and day fields into a single string and converted to datetime objects using pd.to_datetime() with format %Y%m%d.
+- Reformatted resulting dates into MM/DD/YYYY for readability and consistency.
 
-  
-**Date Construction:**
-  - Combined BEGIN_DAY with the cleaned BEGIN_YEARMONTH to create a new begin_date column.
-  - Similarly, merged END_DAY with END_YEARMONTH to form an end_date column.
 
-    
- **These new columns provide more interpretable date strings for analysis and visualization.**
+**Datetime Enhancement**
+- Cleaned BEGIN_TIME and END_TIME by zero-padding to four digits (HHMM format).
+- Converted time strings into timedelta objects and added them to the corresponding begin_date and end_date columns.
+- Final begin_date_time and end_date_time columns were formatted as MM/DD/YYYY HH:MM for timestamp-level granularity.
+
+**Column Consolidation**
+- With full datetime columns constructed, redundant fields such as BEGIN_YEARMONTH, BEGIN_DAY, and BEGIN_TIME can be safely removed to streamline the dataset.
 
 ### Numerical and Categorical Analysis 
 
