@@ -118,7 +118,16 @@ print(df['end_date_time'])
 
 #with begininng and end date and date/time columns added, we can remove begin_yearmonth, begin_date, begin_time columns
 
+#remove begin_yearmonth, begin_date, begin_time columns
+df = df.drop(['BEGIN_YEARMONTH' , 
+              'END_YEARMONTH' , 
+              'BEGIN_DAY',
+              'END_DAY',
+              'BEGIN_TIME' , 
+              'END_TIME'],
+              axis=1)
 
+df.info()
 
 
 
