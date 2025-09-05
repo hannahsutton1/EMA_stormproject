@@ -3,7 +3,7 @@
  # Pennsylvania EMA Project 
  ## Storm Resource Allocation Dashboard and Analysis in Python 
 
-[About This Project](#about-this-project) · [Continuing Analysis](#continuing-analysis) · [Numerical and Categorical Analysis](#numerical-and-categorical-analysis) · [Visualizations](#visualizations)
+[About This Project](#about-this-project) · [Continuing Analysis](#continuing-analysis) · [Cleaning the Data](#cleaning-the-data) · [Numerical and Categorical Analysis](#numerical-and-categorical-analysis) · [Visualizations](#visualizations)
 
 </div>
 
