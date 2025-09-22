@@ -21,7 +21,7 @@ This project emphasized effective communication through data visualization, adap
 
 **Preview: Tableau Dashboard (Click to go to TableauPublic):**
 
-[![Dashboard Preview](EMA_stormproject/Storm-Dashboard-Tableau.png)]([https://public.tableau.com/views/StormDashboard_17559311714590/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link])
+[![Dashboard Preview](Storm-Dashboard-Tableau.png)]([https://public.tableau.com/views/StormDashboard_17559311714590/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link])
 
 ## Continuing Analysis
 
