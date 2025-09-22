@@ -19,9 +19,13 @@ As a "contracted data analyst", I was tasked with developing three data visualiz
 
 This project emphasized effective communication through data visualization, adapting technical insights for decision-makers, operational teams, and the general public.
 
-**Preview: Tableau Dashboard (Click to go to TableauPublic):**
+**EMA Dashboard:**
 
-[![Dashboard Preview](Storm Dashboard Tableau.png)](https://public.tableau.com/views/StormDashboard_17559311714590/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Click here to see the interactive dashboard on Tableau Public](https://public.tableau.com/views/StormDashboard_17559311714590/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link):
+
+Preview:
+
+![Dashboard Preview](Storm-Dashboard-Tableau.png)
 
 ## Continuing Analysis
 
